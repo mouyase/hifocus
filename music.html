@@ -1,0 +1,81 @@
+<!-- require APlayer -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+<div class="container">
+    <meting-js
+    name="千年之恋"
+    artist="双笙"
+    url="https://cdn.statically.io/gh/hifocus/hifocus/master/music_references/%E5%8F%8C%E7%AC%99%20-%20%E5%8D%83%E5%B9%B4%E4%B9%8B%E6%81%8B.flac"
+    cover="https://vip1.loli.net/2020/12/03/q4ugJZvO8Iw97x6.jpg"
+    lrc="https://raw.githubusercontent.com/hifocus/hifocus/master/music_references/%E5%8D%83%E5%B9%B4%E4%B9%8B%E6%81%8B.lrc"
+    autoplay="true"
+    preload="auto">
+</meting-js>
+</div>
+
+<style>
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    html,
+body {
+  height: 100%;
+  margin: 0;
+  /* Custom Fonts Disabled Due to Need on Load Speed */
+  /* font-family: "Noto Sans SC Sliced", sans-serif; */
+  background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+</style>
